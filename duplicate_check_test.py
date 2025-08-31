@@ -4,7 +4,7 @@ import json
 from collections import Counter
 
 class DuplicateCheckTester:
-    def __init__(self, base_url="https://ip-dashboard-1.preview.emergentagent.com"):
+    def __init__(self, base_url="http://localhost:8000"):
         self.base_url = base_url
         self.api_url = f"{base_url}/api"
         self.admin_token = None
